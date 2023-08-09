@@ -1,0 +1,151 @@
+.header{
+    height:88px ;
+    width: 1440px;
+    top: 49px;
+    
+    display: flex;
+}
+.content{
+    width: 1440px;
+    height: 3430px;
+    left: 103px;
+    /* background-color:  gray; */
+}
+.footer{
+    width: 1440px;
+    height: 400px;
+    left: 11px;
+    top: 3406px;
+    border: 2px 0px 0px 0px;
+    background-color: blue;
+}
+.logo{
+    width: 350px;
+    height: 88px;
+    top: 50px;
+    left: 120px;
+    
+}
+.header-nav{
+    width: 850px;
+    height: 50px;
+    background-color: blue;
+    float: right;
+
+}
+#navbar {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+   /* list-style-type: none; */
+   float:right;
+  
+   
+    
+}
+/* #navbar ul{
+    float: right;
+} */
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a {
+color: black;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#navbar li a:hover {
+    color: red;
+}
+.content-top{
+    
+    width: 1440px;
+    height: 1500px;
+    left: 103px;
+    /* background-color: aqua; */
+    
+}
+
+.content-top-left{
+    width: 1000px;
+    height: 1720px;
+    left: 103px;
+    /* background-color:  pink; */
+    display: flex;
+}
+.content-top-right{
+     width: 440px;
+    height: 1720px; 
+    background-color: goldenrod;
+    float:right;
+    /* position: relative; */
+}
+.content-bottom{
+    width: 1440px;
+    height: 1720px;
+    left: 103px;
+    /* background-color:  green; */
+}
+.content-bottom-left{
+    width: 1000px;
+    height: 1700px;
+    left: 103px;
+    /* background-color:  palegreen; */
+     /* display: flex;  */
+}
+/* .content-bottom-right{
+     display: flex;
+    width: 440px;
+    height: 1720px;
+    
+    background-color: royalblue;
+    float:right;
+}  */
+/* .button {
+    display: inline-block; color: blue;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+} */
+h3{
+    font-size: 60px;
+    text-align:right;
+    justify-content: right;
+}
+#icon{
+    display: flex;
+    list-style-type: none;
+    font-size: 50px;
+    margin: 5px;
+    text-align: center;
+}
+#icon li {
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+#icon li :hover{
+    color: green;
+}
+h1{
+    font-size: 50px;
+}
+#baiviet{
+    display: flex;
+}
+#baiviet li {
+    
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+.form-group{
+    text-align: center;
+}
